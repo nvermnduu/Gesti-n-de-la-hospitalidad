@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Académica – Gestión de la Hospitalidad</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>📘 Malla Académica – Gestión de la Hospitalidad</h1>
   <div class="trimestre tri1" onclick="toggleDetalle('tri1')">1️⃣ Trimestre 1</div>
   <div class="detalle" id="tri1">
     <div class="asignatura"><strong>FC-1129:</strong> Matemática I – 4 UC</div>
@@ -125,11 +134,6 @@
     <div class="asignatura"><strong>Electiva Profesional III:</strong> 3 UC | Req: 140 UC</div>
     <div class="asignatura"><strong>Electiva Profesional IV:</strong> 3 UC | Req: 140 UC</div>
   </div>
-    <script>
-    function toggleDetalle(id) {
-      let elemento = document.getElementById(id);
-      elemento.style.display = (elemento.style.display === 'none' || elemento.style.display === '') ? 'block' : 'none';
-    }
-  </script>
+   <script src="script.js"></script>
 </body>
 </html>
